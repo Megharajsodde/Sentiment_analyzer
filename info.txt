@@ -1,0 +1,65 @@
+Train sentiment model in Jupyter
+Save model.pkl + vectorizer.pkl
+Create Flask backend
+Create HTML form
+Connect form → Flask
+Flask → model
+Display Positive/Negative
+Add CSS
+Add MySQL
+Add JavaScript later
+
+
+
+🔥 Level 3 — Add useful real-world features
+
+You could add:
+
+1. History
+
+Store previous analyses:
+
+Text                    Sentiment       Confidence
+---------------------------------------------------
+"I loved this movie"    Positive        94%
+"Waste of time"         Negative        91%
+
+You could use SQLite/MySQL with Flask.
+
+2. Dashboard
+
+Show:
+
+Total Reviews: 125
+
+Positive: 78
+Negative: 47
+
+Positive: ███████████████
+Negative: █████████
+
+3. Multiple text analysis   
+
+Allow users to paste several comments and analyze them together.
+
+4. Clear prediction
+
+Add a button to clear the text and result.
+
+
+
+⭐ Level 4 — Make it portfolio-worthy
+
+Add:
+
+GitHub README
+Dataset information
+Model performance
+Technologies used
+Example inputs/outputs
+
+Then deploy it so someone can actually open your website.
+
+
+
+

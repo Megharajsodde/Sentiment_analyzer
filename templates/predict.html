@@ -1,0 +1,52 @@
+{% extends "index.html" %}
+
+{% block title %}
+Sentiment Analyzer
+{% endblock %}
+
+
+{% block content %}
+
+<main class="predict-page">
+
+    <div class="predict-card">
+
+        <p class="small-title">AI SENTIMENT ANALYZER</p>
+
+        <h1>Analyze your text</h1>
+
+        <p class="predict-description">
+            Enter a movie review, comment, or any short text
+            and our model will predict its sentiment.
+        </p>
+
+
+        <label for="text">
+            Enter your text
+        </label>
+
+        <textarea
+            id="text"
+            placeholder="Write your comment here..."
+            rows="8"
+            required></textarea>
+
+
+        <button onclick="predict()">
+            Analyze Sentiment
+        </button>
+
+
+        <div class="result-box">
+
+            <p id="result">
+                Your prediction will appear here.
+            </p>
+
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}
